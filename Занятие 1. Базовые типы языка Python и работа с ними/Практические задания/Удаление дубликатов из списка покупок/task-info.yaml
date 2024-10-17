@@ -1,0 +1,33 @@
+type: output
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 83
+        length: 115
+        placeholder_text: |-
+          ...  # TODO Найдите количество уникальных товаров
+          
+          print("Количество уникальных товаров:", ...)
+        initial_state:
+          length: 95
+          offset: 83
+        initialized_from_dependency: false
+        encrypted_possible_answer: |-
+          unique_items = set(shopping_list)
+          
+          print("Количество уникальных товаров:", len(unique_items))
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 12 Oct 2024 15:59:16 UTC"
+record: -1
