@@ -15,7 +15,7 @@ files:
           else:
               print("Некорректный номер месяца")  # Если month не соответствует ни одному списку, выводим ошибку
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -23,5 +23,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 18 Oct 2024 15:50:14 UTC"
 record: -1

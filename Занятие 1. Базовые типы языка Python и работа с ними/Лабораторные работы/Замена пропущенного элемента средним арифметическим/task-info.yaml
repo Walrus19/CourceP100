@@ -10,7 +10,7 @@ files:
     visible: true
     placeholders:
       - offset: 102
-        length: 262
+        length: 268
         placeholder_text: |-
           # TODO заменить значение пропущенного элемента средним арифметическим
           
@@ -34,6 +34,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Tue, 15 Oct 2024 18:45:26 UTC"
+  time: "Fri, 18 Oct 2024 17:11:02 UTC"
 record: -1
 solution_hidden: true
