@@ -2,13 +2,15 @@ money_capital = 20000  # Подушка безопасности
 salary = 5000  # Ежемесячная зарплата
 spend = 6000  # Траты за первый месяц
 increase = 0.05  # Ежемесячный рост цен
-count = 0
+count = 1
 
-all_ = money_capital + salary
+budget = money_capital + salary - spend
+spend_add = spend * increase
 # TODO Посчитайте количество  месяцев, которое можно протянуть без долгов
-while all_ > spend:
+while budget > spend:
     count += 1
-    all_ = all_ - (spend * increase)
+    spend += spend_add
+    budget = budget + salary - spend
 
 
 

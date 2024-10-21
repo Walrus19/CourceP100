@@ -10,7 +10,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 423
+        length: 487
         placeholder_text: |-
           money_capital = 20000  # Подушка безопасности
           salary = 5000  # Ежемесячная зарплата
@@ -48,10 +48,10 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: "Fri, 18 Oct 2024 18:14:25 UTC"
+  time: "Mon, 21 Oct 2024 08:39:25 UTC"
   expected: |
     Количество месяцев, которое можно протянуть без долгов: 8
   actual: |
-    Количество месяцев, которое можно протянуть без долгов: 2
+    Количество месяцев, которое можно протянуть без долгов: 7
 record: -1
 solution_hidden: true
