@@ -5,11 +5,11 @@ increase = 0.05  # Ежемесячный рост цен
 count = 1
 
 budget = money_capital + salary - spend
-spend_add = spend * increase
+# spend_add = spend * increase
 # TODO Посчитайте количество  месяцев, которое можно протянуть без долгов
 while budget > spend:
     count += 1
-    spend += spend_add
+    spend += spend * increase
     budget = budget + salary - spend
 
 

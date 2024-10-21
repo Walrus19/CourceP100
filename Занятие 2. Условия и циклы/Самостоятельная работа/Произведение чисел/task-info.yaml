@@ -12,7 +12,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: mul = 1
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 40
         length: 35
         placeholder_text: "# TODO посчитать произведение чисел"
@@ -27,8 +27,8 @@ files:
               mul *= number
           
           print(mul)
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -36,5 +36,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 21 Oct 2024 11:42:05 UTC"
 record: -1
