@@ -43,11 +43,15 @@ files:
           
           print("Количество месяцев, которое можно протянуть без долгов:", month)
         selected: true
-        status: Solved
+        status: Failed
     learner_created: false
-status: Solved
+status: Failed
 feedback:
-  message: Congratulations!
-  time: "Mon, 21 Oct 2024 19:59:42 UTC"
+  message: Incorrect
+  time: "Fri, 18 Oct 2024 18:14:25 UTC"
+  expected: |
+    Количество месяцев, которое можно протянуть без долгов: 8
+  actual: |
+    Количество месяцев, которое можно протянуть без долгов: 2
 record: -1
 solution_hidden: true

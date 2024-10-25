@@ -35,8 +35,11 @@ def calculate_frequency(letter_count: dict) -> dict:
     """
       # TODO Реализуйте функцию
     str_dict ={}
+    sum_ = sum(letter_count.values())
+    # print(sum_)
     for letter in letter_count:
-        str_dict[letter] = round((letter_count.get(letter) / len(letter_count)), 2)
+        str_dict[letter] = round((letter_count.get(letter)) / sum_, 2)
+
     return str_dict
 
 main_str = """
@@ -74,13 +77,22 @@ main_str = """
 Под ним сидел, и кот учёный
 Свои мне сказки говорил.
 """
+# text1 = main_str
+# text1 = ''.join(text1.lower().split())
+# i = 0
+# ch = text1[0].lower()
+# for k in text1:
+#     if k == ch:
+#         i += 1
+# print(i)
+
 # print(count_letters(main_str))
 # print(calculate_frequency(count_letters(main_str)))
 count_dict = count_letters(main_str)
-print(count_dict)
+# print(count_dict)
 frequency_dict = calculate_frequency(count_dict)
-print(frequency_dict)
+# print(frequency_dict)
 
 # TODO Распечатайте в столбик букву и её частоту в тексте
-for item in frequency_dict.items():
-    print(item)
+for key, item in frequency_dict.items():
+    print(f"{key}: {item:.2f}")
