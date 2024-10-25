@@ -20,8 +20,8 @@ files:
           
               return common_participants
         selected: false
-        status: Unchecked
-      - offset: 156
+        status: Solved
+      - offset: 449
         length: 66
         placeholder_text: "# TODO Проверьте работу функции с разделителем отличным от\
       \ запятой"
@@ -33,7 +33,7 @@ files:
           participants = find_common_participants(participants_first_group, participants_second_group)
           print("Общие участники:", participants)
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -44,6 +44,9 @@ files:
   - name: tests/__init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 25 Oct 2024 10:58:05 UTC"
 record: -1
 solution_hidden: true

@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 42
-        length: 49
+        length: 55
         placeholder_text: "...  # TODO Найдите список делителей числа number"
         initial_state:
           length: 49
@@ -17,8 +17,8 @@ files:
                       list_divisors.append(divisor)
           
               return list_divisors
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -26,5 +26,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 25 Oct 2024 07:45:41 UTC"
 record: -1

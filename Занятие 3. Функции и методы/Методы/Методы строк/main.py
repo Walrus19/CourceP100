@@ -13,7 +13,7 @@ data = "apple,orange,banana"
 fruits = data.split(',')
 print(fruits)  # ['apple', 'orange', 'banana']
 
-# Приведение первого символа строки к нижнему регистру, а остальных к нижнему
+# Приведение первого символа строки к верхнему регистру, а остальных к нижнему
 text = "hello, World"
 result = text.capitalize()
 print(result)  # Hello, world
