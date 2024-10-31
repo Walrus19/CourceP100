@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 79
-        length: 59
+        length: 62
         placeholder_text: "...  # TODO проверить что в строку входят только символы 1\
       \ и 0"
         initial_state:
@@ -19,7 +19,7 @@ files:
                   if d not in ALLOW_SYMBOLS:
                       return False
               return True
-        selected: true
+        selected: false
         status: Solved
     learner_created: false
   - name: __init__.py
@@ -31,5 +31,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Fri, 25 Oct 2024 18:14:48 UTC"
+  time: "Sat, 26 Oct 2024 18:15:13 UTC"
 record: -1

@@ -5,8 +5,7 @@ from idlelib.debugobj_r import remote_object_tree_item
 def get_index(items, f_item):
     for i,item in enumerate(items):
         if item == f_item:
-             rezult = i
-             return rezult
+             return i
 
 
 
