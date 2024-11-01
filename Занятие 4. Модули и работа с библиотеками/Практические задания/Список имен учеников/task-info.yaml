@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 41
+        length: 0
         placeholder_text: "# TODO Напишите функцию get_student_names"
         initial_state:
           length: 41
@@ -15,8 +15,8 @@ files:
               """Функция для извлечения списка имен учеников из списка словарей с информацией о них."""
               return [student["name"] for student in students]
         selected: false
-        status: Failed
-      - offset: 673
+        status: Solved
+      - offset: 656
         length: 41
         placeholder_text: "# TODO Вызовите функцию get_student_names"
         initial_state:
@@ -25,7 +25,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: print(get_student_names(students_list))
         selected: false
-        status: Failed
+        status: Solved
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -36,8 +36,8 @@ files:
   - name: tests/__init__.py
     visible: false
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Syntax Error
-  time: "Thu, 31 Oct 2024 15:58:03 UTC"
+  message: Congratulations!
+  time: "Thu, 31 Oct 2024 16:22:35 UTC"
 record: -1

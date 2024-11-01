@@ -1,5 +1,4 @@
-# TODO Напишите функцию get_student_names
-def get_student_names(students):
+def get_student_names(students: list[dict]) -> list[str]:
     """Функция для извлечения списка имен учеников из списка словарей с информацией о них."""
     return [student["name"] for student in students]
 
@@ -29,4 +28,4 @@ if __name__ == '__main__':
         },
     ]
     # TODO Вызовите функцию get_student_names
-print(get_student_names(students_list))
+    print(get_student_names(students_list))
