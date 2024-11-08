@@ -9,7 +9,7 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 72
+      - offset: 114
         length: 45
         placeholder_text: "...  # TODO построчно записать лесенку в файл"
         initial_state:
@@ -23,5 +23,8 @@ files:
         selected: false
         status: Unchecked
     learner_created: false
+  - name: output.txt
+    visible: true
+    learner_created: true
 status: Unchecked
 record: -1
