@@ -19,5 +19,6 @@ csv_data = [
 # Сериализация данных в формат CSV
 with open('output.csv', 'w', encoding="utf-8") as f:
     lines = [",".join(d) for d in csv_data]
+    print(lines)
     for line in lines:
         f.write(line + '\n')
