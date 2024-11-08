@@ -2,7 +2,10 @@
 def remove(list_, value):
     if not value in list_:
         raise ValueError()
-    index = list_.index(value)
+    index = 0
+    for ind, val in enumerate(list_):
+        if val == value:
+            index = ind
     return list_[:index] + list_[index+1:]
 
 
