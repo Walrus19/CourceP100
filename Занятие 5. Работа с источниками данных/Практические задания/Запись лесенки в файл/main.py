@@ -10,7 +10,7 @@ def task(count):
     ...  # TODO построчно записать лесенку в файл
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f1:
         for i in range(count):
-            str = "*" * i+"\n"
+            str = "*" * (i+1)+"\n"
             f1.write(str)
 
 

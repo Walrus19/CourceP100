@@ -20,9 +20,9 @@ files:
           import csv
           import json
         selected: false
-        status: Unchecked
-      - offset: 129
-        length: 40
+        status: Solved
+      - offset: 289
+        length: 37
         placeholder_text: "...  # TODO считать содержимое csv файла"
         initial_state:
           length: 40
@@ -31,10 +31,10 @@ files:
         encrypted_possible_answer: |-
           with open(INPUT_FILENAME, encoding="utf-8") as f:
                   lines = [line for line in csv.DictReader(f)]
-        selected: false
-        status: Unchecked
-      - offset: 175
-        length: 54
+        selected: true
+        status: Solved
+      - offset: 332
+        length: 51
         placeholder_text: "...  # TODO Сериализовать в файл с отступами равными 4"
         initial_state:
           length: 54
@@ -44,11 +44,17 @@ files:
           with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
                   json.dump(lines, f, indent=4)
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+  - name: output.json
+    visible: true
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 11 Nov 2024 09:11:28 UTC"
 record: -1
 solution_hidden: true

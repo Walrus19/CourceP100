@@ -12,8 +12,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: import json
         selected: false
-        status: Unchecked
-      - offset: 90
+        status: Solved
+      - offset: 148
         length: 64
         placeholder_text: "...  # TODO Сериализуйте python объект в json строку с отст\
       упами"
@@ -23,7 +23,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: "return json.dumps(python_obj, indent=4)"
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -31,5 +31,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 11 Nov 2024 06:50:28 UTC"
 record: -1

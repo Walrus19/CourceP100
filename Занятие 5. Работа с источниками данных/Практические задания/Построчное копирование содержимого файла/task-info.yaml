@@ -3,7 +3,7 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 70
+      - offset: 230
         length: 57
         placeholder_text: "...  # TODO перезаписать содержимое одного файла в другой"
         initial_state:
@@ -16,7 +16,7 @@ files:
                       for line in input_file:
                           output_file.write(line.upper())
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -27,5 +27,11 @@ files:
   - name: input.txt
     visible: true
     learner_created: false
-status: Unchecked
+  - name: output.txt
+    visible: true
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 11 Nov 2024 06:21:55 UTC"
 record: -1
